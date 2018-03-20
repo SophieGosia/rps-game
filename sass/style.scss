@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy|Open+Sans');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    animation: flow 30s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes flow {
+  0% {background-color: lightred;}
+  20% {background-color: rgb(243, 93, 115);}
+  40% {background-color: rgb(110, 149, 235);}
+  60% {background-color: rgb(57, 201, 231);}
+  80% {background-color: rgb(49, 207, 120);}
+  100% {background-color: rgb(112, 207, 49);}
+}
+
+.headings {
+    font-family: 'Luckiest Guy', cursive;
+    margin-top: 15px;
+    font-size: 35px;
+}
+
+.icon {
+    display: inline-block;
+    margin-top: 20%;
+}
+
+.new-game-btn {
+    margin-top: 30px;
+}
+
+.btn-pick {
+    margin: 30px 10px;
+    padding-top: 15px;
+    background-color: #fff;
+}
+
+.result {
+    margin-top: 30px;
+    padding: 15px 10px;
+    background-color: #fff;
+    
+    .badge {
+        font-size: 25px;
+    }
+}
+
+/*------Footer------*/
+footer {
+    width: 100%;
+    margin-top: 15px;
+}
