@@ -1,5 +1,4 @@
-https://sophiegosia.github.io/8.3/
-
+https://sophiegosia.github.io/rps-game/
 
 Command to run taskrunners: 
 $ npm run watch
