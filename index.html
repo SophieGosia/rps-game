@@ -5,23 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
     
   <body>
-
-    <div class="container icons">
-      <div class="icon rock">
-        <i class="fa fa-hand-rock-o fa-5x" aria-hidden="true"></i>
-      </div>
-      <div class="icon paper">
-        <i class="fa fa-hand-paper-o fa-5x" aria-hidden="true"></i>
-      </div>
-      <div class="icon scissors">
-        <i class="fa fa-hand-scissors-o fa-5x" aria-hidden="true"></i>
-      </div>
+    <div class="container welcome-page" id="js-welcomeElement">
+      <div id="animated-icons" class="icon fa fa-5x"></div>
       <h3 class="headings text-center">Welcome to the game</h3>
     </div>
 
@@ -33,22 +24,26 @@
       </div>
     </div>
 
-    <div id="js-playerPickElement" class="pick-element-btns container">
+    <div id="js-playerPickElement" class="pick-element-btns container text-center">
       <div class="row text-center">
         <button id="js-playerPick_rock" class="btn btn-pick">
-          <i class="fa fa-hand-rock-o fa-5x" aria-hidden="true"></i>
+          <span class="badge">
+            <i class="fa fa-hand-rock-o fa-5x" aria-hidden="true"></i>
+          </span><br>
+          Rock
         </button>
         <button id="js-playerPick_paper"  class="btn btn-pick">
-          <i class="fa fa-hand-paper-o fa-5x" aria-hidden="true"></i>
+          <span class="badge">
+              <i class="fa fa-hand-paper-o fa-5x" aria-hidden="true"></i>
+          </span><br>
+          Paper
         </button>
         <button id="js-playerPick_scissors"  class="btn btn-pick">
-          <i class="fa fa-hand-scissors-o fa-5x" aria-hidden="true"></i>
+          <span class="badge">
+              <i class="fa fa-hand-scissors-o fa-5x" aria-hidden="true"></i>
+          </span><br>
+          Scissors
         </button>
-      </div>
-      <div class="row">
-          <div class="col">Rock</div>
-          <div class="col">Paper</div>
-          <div class="col">Scossors</div>
       </div>
     </div>
 
@@ -101,7 +96,7 @@
       </div>
 
       <footer class="footer-copyright py-3 text-center">
-              <p>Copyright Sophie 2018</p>
+        <p>Copyright Sophie 2018</p>
       </footer>
 
     <script type="text/javascript" src="js/script.js"></script>
