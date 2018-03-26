@@ -62,12 +62,13 @@ function setGameElements() {
     case 'ended':
         newGameElem.style.display = 'block';
         newGameBtn.innerText = 'Jeszcze raz';
+        break;
     case 'notStarted':
-    default:
         welcomeElem.style.display = 'block';
         newGameElem.style.display = 'block';
         pickElem.style.display = 'none';
         resultsElem.style.display = 'none';
+        break;
   }
 }
 
