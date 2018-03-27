@@ -69,6 +69,8 @@ function setGameElements() {
         pickElem.style.display = 'none';
         resultsElem.style.display = 'none';
         break;
+    default:
+        // do nothing
   }
 }
 
